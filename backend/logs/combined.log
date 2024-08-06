@@ -1,0 +1,43 @@
+2024-08-03 11:16:04 info: Executing (default): SELECT 1+1 AS result
+2024-08-03 11:16:04 info: Conexión a la base de datos establecida correctamente.
+2024-08-03 11:16:04 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Products' AND TABLE_SCHEMA = 'lector-codigos'
+2024-08-03 11:16:04 info: Executing (default): CREATE TABLE IF NOT EXISTS `Products` (`id` INTEGER auto_increment , `nombre` VARCHAR(20) NOT NULL, `codigo` VARCHAR(255) NOT NULL, `precio` INTEGER NOT NULL, `marca` VARCHAR(50) NOT NULL, `stock` INTEGER NOT NULL, `imagen` VARCHAR(255) NOT NULL, `createdAt` DATETIME NOT NULL, `updatedAt` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2024-08-03 11:16:04 info: Executing (default): SHOW INDEX FROM `Products`
+2024-08-03 11:16:04 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Usuarios' AND TABLE_SCHEMA = 'lector-codigos'
+2024-08-03 11:16:04 info: Executing (default): CREATE TABLE IF NOT EXISTS `Usuarios` (`id` INTEGER auto_increment , `nombre` VARCHAR(20) NOT NULL, `email` VARCHAR(255) NOT NULL, `password` VARCHAR(255) NOT NULL, `admin` TINYINT(1) NOT NULL DEFAULT false, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2024-08-03 11:16:04 info: Executing (default): SHOW INDEX FROM `Usuarios`
+2024-08-03 11:16:04 info: Modelos sincronizados correctamente.
+2024-08-03 11:16:04 info: Servidor escuchando en el puerto: 3000
+2024-08-03 11:43:33 info: Executing (default): SELECT 1+1 AS result
+2024-08-03 11:43:33 info: Conexión a la base de datos establecida correctamente.
+2024-08-03 11:43:33 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Products' AND TABLE_SCHEMA = 'lector-codigos'
+2024-08-03 11:43:33 info: Executing (default): SHOW INDEX FROM `Products`
+2024-08-03 11:43:33 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Usuarios' AND TABLE_SCHEMA = 'lector-codigos'
+2024-08-03 11:43:33 info: Executing (default): SHOW INDEX FROM `Usuarios`
+2024-08-03 11:43:33 info: Modelos sincronizados correctamente.
+2024-08-03 11:43:33 info: Servidor escuchando en el puerto: 3000
+2024-08-03 11:43:58 info: Executing (default): SELECT `id`, `nombre`, `codigo`, `precio`, `marca`, `stock`, `imagen`, `createdAt`, `updatedAt` FROM `Products` AS `Products` ORDER BY `Products`.`id` ASC;
+2024-08-03 12:02:29 info: Executing (default): SELECT 1+1 AS result
+2024-08-03 12:02:29 info: Conexión a la base de datos establecida correctamente.
+2024-08-03 12:02:29 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Products' AND TABLE_SCHEMA = 'lector-codigos'
+2024-08-03 12:02:29 info: Executing (default): SHOW INDEX FROM `Products`
+2024-08-03 12:02:29 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Usuarios' AND TABLE_SCHEMA = 'lector-codigos'
+2024-08-03 12:02:29 info: Executing (default): SHOW INDEX FROM `Usuarios`
+2024-08-03 12:02:29 info: Modelos sincronizados correctamente.
+2024-08-03 12:02:29 info: Servidor escuchando en el puerto: 3000
+2024-08-03 12:02:31 info: Executing (default): SELECT 1+1 AS result
+2024-08-03 12:02:31 info: Conexión a la base de datos establecida correctamente.
+2024-08-03 12:02:31 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Products' AND TABLE_SCHEMA = 'lector-codigos'
+2024-08-03 12:02:31 info: Executing (default): SHOW INDEX FROM `Products`
+2024-08-03 12:02:31 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Usuarios' AND TABLE_SCHEMA = 'lector-codigos'
+2024-08-03 12:02:31 info: Executing (default): SHOW INDEX FROM `Usuarios`
+2024-08-03 12:02:31 info: Modelos sincronizados correctamente.
+2024-08-03 12:02:31 info: Servidor escuchando en el puerto: 3000
+2024-08-03 12:02:38 info: Executing (default): SELECT 1+1 AS result
+2024-08-03 12:02:38 info: Conexión a la base de datos establecida correctamente.
+2024-08-03 12:02:38 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Products' AND TABLE_SCHEMA = 'lector-codigos'
+2024-08-03 12:02:38 info: Executing (default): SHOW INDEX FROM `Products`
+2024-08-03 12:02:38 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'Usuarios' AND TABLE_SCHEMA = 'lector-codigos'
+2024-08-03 12:02:38 info: Executing (default): SHOW INDEX FROM `Usuarios`
+2024-08-03 12:02:38 info: Modelos sincronizados correctamente.
+2024-08-03 12:02:38 info: Servidor escuchando en el puerto: 3000
